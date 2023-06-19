@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: grey;
 }
 
 header {
@@ -23,9 +23,12 @@ header h1 {
 header nav {
     padding-top: 20px;
     margin-right: 20px;
+    margin-left: 25px;
+    padding-bottom: 11px;
     float: right;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: black;
 }
 
 header nav ul {
@@ -37,7 +40,20 @@ header nav ul li {
     margin-left: 10px;
 }
 
-.content {
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: gold;
+}
+
+p {
+    font-size: 16px;
+}
+
+biography {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -57,6 +73,21 @@ header nav ul li {
     background-color: black;
     color: red;
 
+}
+
+.contact-info {
+    display: inline-block;
+    justify-content: center;
+    align-self: flex-end;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: red;
+}
+
+a:hover {
+    background-color: gold;
 }
 
 @media screen and (max-width: 768px) {
