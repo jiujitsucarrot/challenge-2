@@ -9,10 +9,13 @@ body {
 }
 
 header {
+    display: flex;
     padding: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: red;
     color: black;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -58,13 +61,15 @@ main {
     margin: 0 auto;
 }
 
-biography {
+.biography {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: flex-end;
-    width: 300px;
-    padding: 48px;
-    margin: 48px;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
 }
 
 .flexbox {
@@ -76,18 +81,33 @@ biography {
 .flexbox div {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
     flex-wrap: wrap;
     height: 200px;
     width: 200px;
     background-color: black;
     margin: 30px;
     border-radius: 15%;
+    flex-direction: column;
+    align-content: center;
 
 }
 
 .project-card {
-    background-image: url("../images/samurai-landscape.jpeg");
+    background-image: linear-gradient(rgba(255, 0, 0, 0.8), rgba(255, 111, 0, 0.453)),
+        url("../images/samurai-landscape.jpeg");
+}
+
+.challenge-card {
+    background-image: url("../images/japanese-landscape.jpeg");
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: gold;
 }
 
 p {
@@ -105,9 +125,10 @@ p {
     flex-direction: row;
     padding: 20px;
     margin: 20px;
+    margin-left: 10px;
     background-color: black;
     color: red;
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 a {
@@ -124,7 +145,36 @@ p {
     padding: 10px;
 }
 
+@media screen and (max-width: 1440px) {
+
+    main,
+    header,
+    nav {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    main,
+    header,
+    nav {
+        flex-direction: column;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
+
+    main,
+    header,
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
 
     main,
     header,
