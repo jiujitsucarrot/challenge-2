@@ -59,8 +59,8 @@ In this challenge I utilized course lectures, notes, youtube videos, and past ch
 * ![Alt text](<Screenshot 2023-06-25 at 5.54.28 PM.png>)
 
 ## Final Submission
-* 
-* 
+* https://jiujitsucarrot.github.io/challenge-2/
+* https://github.com/jiujitsucarrot/challenge-2
 
 ## Grading Requirements
 > **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
