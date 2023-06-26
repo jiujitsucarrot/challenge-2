@@ -60,7 +60,7 @@ In this challenge I utilized course lectures, notes, youtube videos, and past ch
 
 ## Final Submission
 * https://jiujitsucarrot.github.io/professional-portfolio/
-* https://github.com/jiujitsucarrot/professional-portfolio/settings/pages
+* https://github.com/jiujitsucarrot/professional-portfolio
 
 ## Grading Requirements
 > **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
