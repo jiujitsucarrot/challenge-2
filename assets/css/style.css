@@ -73,6 +73,15 @@ main {
     color: red;
 }
 
+.hero {
+    height: 200px;
+    width: 1200px;
+    margin-top: 10px;
+    background-image: url("../images/portfolio-photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .stack {
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +122,13 @@ p {
 .challenge-card {
     background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgba(2, 1, 1, 0.453)),
         url("../images/japanese-landscape.jpeg");
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 .flexbox {
@@ -158,6 +174,13 @@ p {
     padding: 10px;
 }
 
+h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
 .contact-info {
     display: inline-block;
     justify-content: center;
@@ -168,7 +191,7 @@ p {
     margin-left: 10px;
     background-color: black;
     color: red;
-    border-radius: 40%;
+    border-radius: 30%;
 }
 
 a {
