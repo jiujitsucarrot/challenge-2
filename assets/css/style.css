@@ -75,7 +75,7 @@ main {
 
 .hero {
     height: 200px;
-    width: 1200px;
+    width: 1440px;
     margin-top: 10px;
     background-image: url("../images/portfolio-photo.jpg");
     background-size: cover;
@@ -93,7 +93,7 @@ main {
     justify-content: flex-end;
     flex-wrap: wrap;
     height: 200px;
-    width: 1024px;
+    width: 1120px;
     background-color: black;
     margin: 30px;
     border-radius: 7%;
