@@ -48,7 +48,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 In this challenge the goal was to create a web application from scratch but to style it as a professional portfolio. I was required to utilize the skills learned from the previous week. With that being said I had to develop an HTML sheet that would be connected and correspond with the correct CSS sheet. With building those I wanted to structure the content on the page utilizing a flexbox. I added media queries so that the site can be viewed across different devices. Applied linear-gradient to some of the background images. Applied headers, anchors, images, navigation, previous project link, as well as contact info. The goal was to provide a working professional portfolio. Below are attached screenshots of the application both from a standard viewing and one example on a different device screen. 
 
 ## Sources
-In this challenge I utilized course lectures, notes, youtube videos, and past challenge HTML/CSS structures to get started on the web application.
+In this challenge I utilized course lectures, notes, youtube videos, google, mdn, and past challenge HTML/CSS structures to get started on the web application.
 
 ## Screenshots
 * ![Alt text](<Screenshot 2023-06-25 at 5.53.34 PM.png>)
