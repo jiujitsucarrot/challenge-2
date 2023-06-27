@@ -66,7 +66,7 @@ main {
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-end;
-    max-width: 1440px;
+    max-width: 2560px;
     padding: 10px;
     margin: 10px;
     background-color: black;
@@ -75,12 +75,11 @@ main {
 
 .hero {
     height: 200px;
-    width: 1440px;
+    width: 2560px;
     margin-top: 10px;
     background-image: url("../images/portfolio-photo.jpg");
-    background-position: 50%;
+    background-position: 50% 46%;
     background-size: cover;
-    background-position: center;
 }
 
 .stack {
@@ -207,6 +206,15 @@ a:hover {
 p {
     font-size: 16px;
     padding: 10px;
+}
+
+@media screen and (max-width: 2560px) {
+    main,
+    header,
+    nav {
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 1440px) {
